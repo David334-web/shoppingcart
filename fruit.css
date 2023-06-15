@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 1300px;
+    height: 100px;
+    background-color: #2a93f5;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logocompagny{
+    width: 210px;
+    height: 150px;
+}
+
+.buttonlocal{
+    width: 220px;
+    background-color: #e6811c;
+    height: 60px;
+    margin-right: 400px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    border-radius: 10px;
+}
+
+.locallogo{
+    width: 50px;
+    position: absolute;
+    margin-top: -10px;
+}
+
+.buttoncont{
+    width: 200px;
+    text-align: center;
+    background-color: #e6811c;
+    height: 60px;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: Verdana;
+    color: #2f2f30e5;
+    border: none;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+.contactlogo{
+    width: 50px;
+    position: absolute;
+    margin-top: -10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Fruitlogo{
+    width: 200px;
+}
+
+span{
+    color: #ff0000;
+    font-size: 23px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fruta{
+    font-size: 23px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border: 1px solid #000;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.giffruit{
+    position: absolute;
+    margin-left: 160px;
+    width: 50px;
+}
+
+.Payerbutton{
+    width: 500px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-size: 35px;
+    background-color: #008000;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.paylogo{
+    width: 70px;
+    position: absolute;
+    margin-left: 160px;
+}
+
+.Payerbutton:hover{
+    background-color: rgb(242, 198, 87);
+}
+
+.Payerbutton:active{
+    background-color: #ef2a2a;
+}
